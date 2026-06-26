@@ -30,16 +30,22 @@
 
 ```text
 learn-github/
-├── README.md                 # 项目首页说明
-├── cheatsheet.md             # 常用命令速查表
-├── learning-log.md           # 学习记录模板
+├── README.md                              # 项目首页说明
+├── CONTRIBUTING.md                        # 贡献与 PR 练习说明
+├── cheatsheet.md                          # 常用命令速查表
+├── learning-log.md                        # 学习记录模板
+├── .gitignore                             # 忽略临时文件、缓存、密钥等
+├── .github/
+│   ├── pull_request_template.md           # Pull Request 模板
+│   └── ISSUE_TEMPLATE/
+│       └── learning-question.md           # 学习问题 issue 模板
 ├── docs/
-│   ├── 01-git-basic.md        # Git 基础概念与本地操作
-│   ├── 02-github-workflow.md  # GitHub 远程仓库流程
-│   ├── 03-branch-pr.md        # 分支与 Pull Request
-│   └── 04-common-errors.md    # 常见错误与解决方法
+│   ├── 01-git-basic.md                    # Git 基础概念与本地操作
+│   ├── 02-github-workflow.md              # GitHub 远程仓库流程
+│   ├── 03-branch-pr.md                    # 分支与 Pull Request
+│   └── 04-common-errors.md                # 常见错误与解决方法
 └── exercises/
-    └── week-01.md             # 第一周练习任务
+    └── week-01.md                         # 第一周练习任务
 ```
 
 ## 🧭 学习路线
@@ -53,6 +59,7 @@ learn-github/
 | ⑤ | 🧯 处理常见报错 | [常见错误与解决方法](docs/04-common-errors.md) |
 | ⑥ | 📓 记录自己的学习过程 | [GitHub 学习记录](learning-log.md) |
 | ⑦ | 🏁 完成第一周任务 | [Week 01 GitHub 入门练习](exercises/week-01.md) |
+| ⑧ | 🤝 学习如何提交 PR | [贡献指南](CONTRIBUTING.md) |
 
 ## ⚡ 快速开始
 
